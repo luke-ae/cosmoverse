@@ -15,6 +15,11 @@ function defineNextConfig(config) {
 export default defineNextConfig({
   reactStrictMode: true,
   swcMinify: true,
+  // add domain to  next future images
+  images: {
+    domains: ["ipfs.stargaze.zone", "arweave.net"],
+  },
+
   // Next.js i18n docs: https://nextjs.org/docs/advanced-features/i18n-routing
   i18n: {
     locales: ["en"],
