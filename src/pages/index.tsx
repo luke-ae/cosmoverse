@@ -105,7 +105,8 @@ const Home: NextPage = () => {
             <div className="relative h-full w-full max-w-[60%] mx-auto">
               <Image
                 src={data?.image}
-                fill={true}
+                height={500}
+                width={500}
                 className="h-full w-auto object-contain mx-auto"
                 alt={data?.token?.name}
               />
